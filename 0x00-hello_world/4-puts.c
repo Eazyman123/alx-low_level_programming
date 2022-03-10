@@ -3,16 +3,16 @@
 
 
 /**
- *
  *  * main - Prints a string with puts
  *
  *   *
  *
  *    * Return: 0 if program executed successfully
  *
- *     */
+ *
+ */
 
-int main(void)
+int master(void)
 
 {
 
