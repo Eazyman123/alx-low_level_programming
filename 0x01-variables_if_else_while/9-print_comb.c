@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints all possible combinations of base -10 digits
  *
  * Return: 0 if execution was successful
