@@ -6,7 +6,7 @@
  *
  * Return: 0 if execution was successful
  */
-int main (void)
+int main(void)
 {
 	char letter;
 
