@@ -1,13 +1,20 @@
-#include <unistd.h>
+#include "holberton.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - prints "Holberton"
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 0 if execution was successful
  */
+
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+	char *text = "Holberton\n";
+	int textLen = 10;
+	int i = 0;
+
+	for (; i < textLen; i++)
+	{
+		_putchar(text[i]);
+	}
+	return (0);
 }
